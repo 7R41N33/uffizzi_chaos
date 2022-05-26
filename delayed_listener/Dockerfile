@@ -6,4 +6,4 @@ RUN apt-get update \
   && apt-get autoremove -y \
   && rm -rf /var/lib/apt/lists/*
 
-CMD date && sleep 600 && date && nc -l 80
+CMD date && sleep 60 && date && nc -l 80
